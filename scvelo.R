@@ -95,8 +95,15 @@ adata = sc.read_h5ad('my_data.h5ad')
 
 # load loom files for spliced/unspliced matrices for each sample:
 
-ldata1=scv.read_loom("baso.loom",validate=False)
-ldata2=scv.read_loom("baso_2.loom",validate=False)
+ldata1=scv.read_loom("/data/yudonglin/software/cellranger-4.0.0/pro/velocyto/pro.loom",validate=False)
+ldata2=scv.read_loom("/data/yudonglin/software/cellranger-4.0.0/baso/velocyto/baso.loom",validate=False)
+ldata3=scv.read_loom( "/data/yudonglin/software/cellranger-4.0.0/poly/velocyto/poly.loom",validate=False)
+ldata4=scv.read_loom("/data/yudonglin/software/cellranger-4.0.0/ortho/velocyto/ortho.loom",validate=False)
+
+
+
+
+
 # rename barcodes in order to merge:
 barcodes = [bc.split(':')[1] for bc in ldata1.obs.index.tolist()]
 barcodes = [bc[0:len(bc)-1] + '_10' for bc in barcodes]
@@ -106,11 +113,25 @@ barcodes = [bc.split(':')[1] for bc in ldata2.obs.index.tolist()]
 barcodes = [bc[0:len(bc)-1] + '_11' for bc in barcodes]
 ldata2.obs.index = barcodes
 
+barcodes = [bc.split(':')[1] for bc in ldata1.obs.index.tolist()]
+barcodes = [bc[0:len(bc)-1] + '_01' for bc in barcodes]
+ldata3.obs.index = barcodes
+
+barcodes = [bc.split(':')[1] for bc in ldata2.obs.index.tolist()]
+barcodes = [bc[0:len(bc)-1] + '_00' for bc in barcodes]
+ldata4.obs.index = barcodes
+
 # make variable names unique
 ldata1.var_names_make_unique()
 ldata2.var_names_make_unique()
+ldata3.var_names_make_unique()
+ldata4.var_names_make_unique()
+            
+            
+            
+            
 # concatenate the three loom
-ldata = ldata1.concatenate([ldata1, ldata2])
+ldata = ldata1.concatenate([ldata1, ldata2, ldata3, ldata4])
 # merge matrices into the original adata object
 adata = scv.utils.merge(adata, ldata)
 # plot umap to check
@@ -142,8 +163,8 @@ scv.pl.velocity_embedding_stream(adata, basis='umap', color='seurat_clusters', s
 scv.pl.velocity_embedding_stream(adata, basis='tsne', color='seurat_clusters', save='embedding_stream_tsne.pdf', title='')
 
 #可以调节长宽比，不过最后只能输出图片，而不能是PDF
-# scv.pl.velocity_embedding_stream(adata, basis='umap', color='seurat_clusters', figsize =(10, 10),save='embedding_stream_umap1.pdf', title='')
-# scv.pl.velocity_embedding_stream(adata, basis='tsne', color='seurat_clusters', figsize =(10, 10),save='embedding_stream_tsne1.pdf', title='')
+scv.pl.velocity_embedding_stream(adata, basis='umap', color='seurat_clusters', figsize =(10, 10),save='embedding_stream_umap1.pdf', title='')
+scv.pl.velocity_embedding_stream(adata, basis='tsne', color='seurat_clusters', figsize =(10, 10),save='embedding_stream_tsne1.pdf', title='')
 
 
 
