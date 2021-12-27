@@ -124,27 +124,25 @@ gg <- UMAPPlot(seurat.object)
 ggplot_build(gg)$data
 colors <- as.list(ggplot_build(gg)$data[[1]]$colour)
 names(colors) <- rownames(emb)
-p1 <- show.velocity.on.embedding.cor(emb,rvel.cd,n=300,scale='sqrt',
-                                     cell.colors=ac(colors,alpha=0.5),
-                                     cex=0.8,arrow.scale=30,show.grid.flow=T,
-                                     min.grid.cell.mass=0.5,grid.n=40,arrow.lwd=1.5,
-                                     do.par=F,cell.border.alpha = 0.1,
-                                     main="RNA Velocity")
-p1 <- show.velocity.on.embedding.cor(emb,rvel.cd,n=300,scale='sqrt',
-                                     cell.colors=ac(colors,alpha=0.5),
-                                     cex=0.8,arrow.scale=20,show.grid.flow=T,
-                                     min.grid.cell.mass=0.5,grid.n=40,arrow.lwd=1.5,
-                                     do.par=F,cell.border.alpha = 0.1,
-                                     main="RNA Velocity")
+
 p1 <- show.velocity.on.embedding.cor(emb,rvel.cd,n=300,scale='sqrt',
                                      cell.colors=ac(colors,alpha=0.5),
                                      cex=0.8,arrow.scale=10,show.grid.flow=T,
                                      min.grid.cell.mass=0.5,grid.n=40,arrow.lwd=1.5,
                                      do.par=F,cell.border.alpha = 0.1,
                                      main="RNA Velocity")
+p1 <- show.velocity.on.embedding.cor(emb,rvel.cd,n=300,scale='sqrt',
+                                     cell.colors=ac(colors,alpha=0.5),
+                                     cex=0.8,arrow.scale=5,show.grid.flow=T,
+                                     min.grid.cell.mass=0.5,grid.n=40,arrow.lwd=1.5,
+                                     do.par=F,cell.border.alpha = 0.1,
+                                     main="RNA Velocity")
+
+
+
 p1 <- show.velocity.on.embedding.cor(emb,rvel.cd,n=30,scale='sqrt',
                                      cell.colors=ac(colors,alpha=0.5),
-                                     cex=0.8,arrow.scale=50,show.grid.flow=T,
+                                     cex=0.8,arrow.scale=5,show.grid.flow=T,
                                      min.grid.cell.mass=1.0,grid.n=50,arrow.lwd=1,
                                      do.par=F,cell.border.alpha = 0.1,
                                      n.cores=48,main="RNA Velocity")
