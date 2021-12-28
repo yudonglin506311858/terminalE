@@ -102,7 +102,10 @@ cellrouter@signatures$SP_11$subpopulation="SP_11"
 cellrouter@signatures$SP_12$subpopulation="SP_12"
 cellrouter@signatures$SP_13$subpopulation="SP_13"
 cellrouter@signatures$SP_14$subpopulation="SP_14"
-data=rbind(cellrouter@signatures$SP_1,cellrouter@signatures$SP_2,cellrouter@signatures$SP_3,cellrouter@signatures$SP_4,cellrouter@signatures$SP_5,cellrouter@signatures$SP_6,cellrouter@signatures$SP_7,cellrouter@signatures$SP_8,cellrouter@signatures$SP_9,cellrouter@signatures$SP_10,cellrouter@signatures$SP_11,cellrouter@signatures$SP_12,cellrouter@signatures$SP_13,cellrouter@signatures$SP_14)
+cellrouter@signatures$SP_15$subpopulation="SP_15"
+cellrouter@signatures$SP_16$subpopulation="SP_16"
+cellrouter@signatures$SP_17$subpopulation="SP_17"
+data=rbind(cellrouter@signatures$SP_1,cellrouter@signatures$SP_2,cellrouter@signatures$SP_3,cellrouter@signatures$SP_4,cellrouter@signatures$SP_5,cellrouter@signatures$SP_6,cellrouter@signatures$SP_7,cellrouter@signatures$SP_8,cellrouter@signatures$SP_9,cellrouter@signatures$SP_10,cellrouter@signatures$SP_11,cellrouter@signatures$SP_12,cellrouter@signatures$SP_13,cellrouter@signatures$SP_14,cellrouter@signatures$SP_15,cellrouter@signatures$SP_16,cellrouter@signatures$SP_17)
 data$gene_names=rownames(data)
 write.table(data,"results/ydl.dif_genes.txt",sep="\t")
 ## GRN score for selected transitions
@@ -179,6 +182,26 @@ pdf("SP_2.SP_14.pdf")
 x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoin
 plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
 dev.off()
+p <- c('SP_2.SP_15')
+pdf("SP_2.SP_15.pdf")
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoin
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+dev.off()
+p <- c('SP_2.SP_16')
+pdf("SP_2.SP_16.pdf")
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoin
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+dev.off()
+p <- c('SP_2.SP_17')
+pdf("SP_2.SP_17.pdf")
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoin
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+dev.off()
+
+
+
+
+
 savehistory("cellrouter_code.txt")
 
 
