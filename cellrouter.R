@@ -1138,3 +1138,475 @@ save(tfs,file="results/tfs.R")
 dev.off()
 
 
+
+p <- c('SP_16.SP_1')
+pdf("SP_16.SP_1.pdf")
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+dev.off()
+p <- c('SP_16.SP_2')
+pdf("SP_16.SP_2.pdf")
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+dev.off()
+p <- c('SP_16.SP_3')
+pdf("SP_16.SP_3.pdf")
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+dev.off()
+p <- c('SP_16.SP_4')
+pdf("SP_16.SP_4.pdf")
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+dev.off()
+p <- c('SP_16.SP_5')
+pdf("SP_16.SP_5.pdf")
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+dev.off()
+p <- c('SP_16.SP_6')
+pdf("SP_16.SP_6.pdf")
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+dev.off()
+p <- c('SP_16.SP_7')
+pdf("SP_16.SP_7.pdf")
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+dev.off()
+p <- c('SP_16.SP_8')
+pdf("SP_16.SP_8.pdf")
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+dev.off()
+p <- c('SP_16.SP_9')
+pdf("SP_16.SP_9.pdf")
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+dev.off()
+p <- c('SP_16.SP_10')
+pdf("SP_16.SP_10.pdf")
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+dev.off()
+p <- c('SP_16.SP_11')
+pdf("SP_16.SP_11.pdf")
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+dev.off()
+p <- c('SP_16.SP_12')
+pdf("SP_16.SP_12.pdf")
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+dev.off()
+p <- c('SP_16.SP_13')
+pdf("SP_16.SP_13.pdf")
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoin
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+dev.off()
+p <- c('SP_16.SP_14')
+pdf("SP_16.SP_14.pdf")
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoin
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+dev.off()
+p <- c('SP_16.SP_15')
+pdf("SP_16.SP_16.pdf")
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoin
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+dev.off()
+p <- c('SP_16.SP_16')
+pdf("SP_16.SP_16.pdf")
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoin
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+dev.off()
+p <- c('SP_16.SP_17')
+pdf("SP_16.SP_17.pdf")
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoin
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+dev.off()
+
+
+
+
+
+savehistory("cellrouter_code.txt")
+
+
+
+
+
+#只展示前14个--单独
+p <- c('SP_16.SP_1')
+pdf("SP_16.SP_1-1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+dev.off()
+p <- c('SP_16.SP_2')
+pdf("SP_16.SP_2-1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+dev.off()
+p <- c('SP_16.SP_3')
+pdf("SP_16.SP_3-1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+dev.off()
+p <- c('SP_16.SP_4')
+pdf("SP_16.SP_4-1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+dev.off()
+p <- c('SP_16.SP_5')
+pdf("SP_16.SP_5-1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+dev.off()
+p <- c('SP_16.SP_6')
+pdf("SP_16.SP_6-1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+dev.off()
+p <- c('SP_16.SP_7')
+pdf("SP_16.SP_7-1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+dev.off()
+p <- c('SP_16.SP_8')
+pdf("SP_16.SP_8-1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+dev.off()
+p <- c('SP_16.SP_9')
+pdf("SP_16.SP_9-1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+dev.off()
+p <- c('SP_16.SP_10')
+pdf("SP_16.SP_10-1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+dev.off()
+p <- c('SP_16.SP_11')
+pdf("SP_16.SP_11-1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+dev.off()
+p <- c('SP_16.SP_12')
+pdf("SP_16.SP_12-1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+dev.off()
+p <- c('SP_16.SP_13')
+pdf("SP_16.SP_13_1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoin
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+dev.off()
+
+p <- c('SP_16.SP_14')
+pdf("SP_16.SP_14_1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoin
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+dev.off()
+
+
+p <- c('SP_16.SP_15')
+pdf("SP_16.SP_16_1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoin
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+dev.off()
+
+
+p <- c('SP_16.SP_16')
+pdf("SP_16.SP_16_1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoin
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+dev.off()
+
+
+p <- c('SP_16.SP_17')
+pdf("SP_16.SP_17_1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoin
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+dev.off()
+
+
+##只展示前14个--合并
+pdf("SP_16.top.pdf",width =5,height=10)
+p <- c('SP_16.SP_1')
+#pdf("SP_16.SP_1-1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_2')
+#pdf("SP_16.SP_2-1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_3')
+#pdf("SP_16.SP_3-1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_4')
+#pdf("SP_16.SP_4-1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_5')
+#pdf("SP_16.SP_5-1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_6')
+#pdf("SP_16.SP_6-1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_7')
+#pdf("SP_16.SP_7-1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_8')
+#pdf("SP_16.SP_8-1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_9')
+#pdf("SP_16.SP_9-1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_10')
+#pdf("SP_16.SP_10-1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_11')
+#pdf("SP_16.SP_11-1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_12')
+#pdf("SP_16.SP_12-1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_13')
+#pdf("SP_16.SP_13_1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoin
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+
+p <- c('SP_16.SP_14')
+#pdf("SP_16.SP_14_1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoin
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+p <- c('SP_16.SP_15')
+#pdf("SP_16.SP_15_1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoin
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+p <- c('SP_16.SP_16')
+#pdf("SP_16.SP_16_1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoin
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+p <- c('SP_16.SP_17')
+#pdf("SP_16.SP_17_1.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.9,q.down=0.1,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoin
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+dev.off()
+
+
+
+
+#展示前40个
+pdf("SP_16.all.pdf",width =8,height=16)
+p <- c('SP_16.SP_1')
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.7,q.down=0.3,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_2')
+#pdf("SP_16.SP_2-3.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.7,q.down=0.3,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_3')
+#pdf("SP_16.SP_3-3.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.7,q.down=0.3,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_4')
+#pdf("SP_16.SP_4-3.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.7,q.down=0.3,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_5')
+#pdf("SP_16.SP_5-3.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.7,q.down=0.3,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_6')
+#pdf("SP_16.SP_6-3.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.7,q.down=0.3,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_7')
+#pdf("SP_16.SP_7-3.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.7,q.down=0.3,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_8')
+#pdf("SP_16.SP_8-3.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.7,q.down=0.3,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_9')
+#pdf("SP_16.SP_9-3.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.7,q.down=0.3,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_10')
+#pdf("SP_16.SP_10-3.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.7,q.down=0.3,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_11')
+#pdf("SP_16.SP_11-3.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.7,q.down=0.3,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_12')
+#pdf("SP_16.SP_12-3.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.7,q.down=0.3,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoints
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_13')
+#pdf("SP_16.SP_13_3.pdf",width =5,height=10)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.7,q.down=0.3,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoin
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_14')
+#pdf("SP_16.SP_14_3.pdf",width =6,height=12)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.7,q.down=0.3,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoin
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_15')
+#pdf("SP_16.SP_15_3.pdf",width =6,height=12)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.7,q.down=0.3,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoin
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_16')
+#pdf("SP_16.SP_16_3.pdf",width =6,height=12)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.7,q.down=0.3,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoin
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+#dev.off()
+p <- c('SP_16.SP_17')
+#pdf("SP_16.SP_17_3.pdf",width =6,height=12)
+x <- grnscores(cellrouter,tfs,p,direction='both',dir.targets='up',q.up=0.7,q.down=0.3,columns=1,width=15,height=10,flip=T,filename=paste('results/',p,sep=''))#barplot,considering this for more endpoin
+plottr(cellrouter,p,x[[p]]$scores,cluster=TRUE,1,15,10,paste('results/',p,'_up_diff_dynamics.pdf',sep='')) #two panel heatmap
+plottr(cellrouter, p, x[[p]]$scores, cluster=FALSE, 2, 4.5, 5.5, paste('results/', p, 'Regulators_transition.pdf',sep=''))
+
+dev.off()
+
+
+
+transitions <- c('SP_16.SP_13','SP_16.SP_14')
+pdf("grnscores_all_13_14.pdf",width =13,height=5)
+x <- grnscores(cellrouter, tfs, transitions, direction='up', q.up=14, dir.targets='up', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_up')
+x <- grnscores(cellrouter, tfs, transitions, direction='up', q.up=20, dir.targets='up', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_up')
+x <- grnscores(cellrouter, tfs, transitions, direction='up', q.up=40, dir.targets='up', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_up')
+x <- grnscores(cellrouter, tfs, transitions, direction='down', q.down=40, dir.targets='down', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_down')
+dev.off()
+
+transitions <- c('SP_16.SP_11','SP_16.SP_12')
+pdf("grnscores_all_11_12.pdf",width =13,height=5)
+x <- grnscores(cellrouter, tfs, transitions, direction='up', q.up=14, dir.targets='up', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_up')
+x <- grnscores(cellrouter, tfs, transitions, direction='up', q.up=20, dir.targets='up', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_up')
+x <- grnscores(cellrouter, tfs, transitions, direction='up', q.up=40, dir.targets='up', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_up')
+x <- grnscores(cellrouter, tfs, transitions, direction='down', q.down=40, dir.targets='down', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_down')
+dev.off()
+
+
+
+pdf("grnscores_total_SP_16.pdf",width =13,height=5)
+transitions <- c('SP_16.SP_1','SP_16.SP_3')
+x <- grnscores(cellrouter, tfs, transitions, direction='up', q.up=40, dir.targets='up', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_up')
+x <- grnscores(cellrouter, tfs, transitions, direction='down', q.down=40, dir.targets='down', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_down')
+transitions <- c('SP_16.SP_4','SP_16.SP_5')
+x <- grnscores(cellrouter, tfs, transitions, direction='up', q.up=40, dir.targets='up', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_up')
+x <- grnscores(cellrouter, tfs, transitions, direction='down', q.down=40, dir.targets='down', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_down')
+transitions <- c('SP_16.SP_6','SP_16.SP_7')
+x <- grnscores(cellrouter, tfs, transitions, direction='up', q.up=40, dir.targets='up', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_up')
+x <- grnscores(cellrouter, tfs, transitions, direction='down', q.down=40, dir.targets='down', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_down')
+transitions <- c('SP_16.SP_8','SP_16.SP_9')
+x <- grnscores(cellrouter, tfs, transitions, direction='up', q.up=40, dir.targets='up', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_up')
+x <- grnscores(cellrouter, tfs, transitions, direction='down', q.down=40, dir.targets='down', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_down')
+transitions <- c('SP_16.SP_10','SP_16.SP_11')
+x <- grnscores(cellrouter, tfs, transitions, direction='up', q.up=40, dir.targets='up', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_up')
+x <- grnscores(cellrouter, tfs, transitions, direction='down', q.down=40, dir.targets='down', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_down')
+transitions <- c('SP_16.SP_12','SP_16.SP_13')
+x <- grnscores(cellrouter, tfs, transitions, direction='up', q.up=40, dir.targets='up', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_up')
+x <- grnscores(cellrouter, tfs, transitions, direction='down', q.down=40, dir.targets='down', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_down')
+transitions <- c('SP_16.SP_16','SP_16.SP_14')
+x <- grnscores(cellrouter, tfs, transitions, direction='up', q.up=40, dir.targets='up', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_up')
+x <- grnscores(cellrouter, tfs, transitions, direction='down', q.down=40, dir.targets='down', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_down')
+transitions <- c('SP_16.SP_15','SP_16.SP_17')
+x <- grnscores(cellrouter, tfs, transitions, direction='up', q.up=40, dir.targets='up', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_up')
+x <- grnscores(cellrouter, tfs, transitions, direction='down', q.down=40, dir.targets='down', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_down')
+transitions <- c('SP_16.SP_2')
+x <- grnscores(cellrouter, tfs, transitions, direction='up', q.up=40, dir.targets='up', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_up')
+x <- grnscores(cellrouter, tfs, transitions, direction='down', q.down=40, dir.targets='down', columns=2, width=8, height=5, flip=FALSE, filename='results/lineage_regulators_score_down')
+
+dev.off()
+
+
