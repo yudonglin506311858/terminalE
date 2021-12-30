@@ -1610,3 +1610,48 @@ x <- grnscores(cellrouter, tfs, transitions, direction='down', q.down=40, dir.ta
 dev.off()
 
 
+
+
+
+
+
+
+##select starting subpopulation,all other subpopulations are targets
+sources <- c('SP_6') #from SP_9 to SP_16
+targets <- setdiff(as.vector(cellrouter@sampTab$population),sources)
+methods <- c("euclidean","maximum","manhattan","canberra","binary",'graph') #graph for distances in KNN
+cellrouter <- findpaths(cellrouter,libdir,paste(getwd(),'results/paths',sep='/'),method="graph")
+ranks <- c('path_cost','path_flow','rank','length')
+cellrouter <- processtrajectories(cellrouter,genes2use,path.rank=ranks[3],num.cells = 3,neighs = 1)
+names <- unique(names(cellrouter@pathsinfo$distr))
+clusters.show <- names
+cellrouter <- correlationpseudotime(cellrouter,type='spearman')
+cellrouter <- topgenes(cellrouter,0.85,0.15)
+cellrouter <- smoothdynamics(cellrouter,names)
+cellrouter <- clusterGenesPseudotime(cellrouter,10)
+save(cellrouter,file='results/CellRouter_StemID_Processed.R')
+saveRDS(cellrouter,"cellrouter_1.RDS")
+cellrouter@signatures$SP_1$subpopulation="SP_1"
+cellrouter@signatures$SP_2$subpopulation="SP_2"
+cellrouter@signatures$SP_3$subpopulation="SP_3"
+cellrouter@signatures$SP_4$subpopulation="SP_4"
+cellrouter@signatures$SP_5$subpopulation="SP_5"
+cellrouter@signatures$SP_6$subpopulation="SP_6"
+cellrouter@signatures$SP_7$subpopulation="SP_7"
+cellrouter@signatures$SP_8$subpopulation="SP_8"
+cellrouter@signatures$SP_9$subpopulation="SP_9"
+cellrouter@signatures$SP_10$subpopulation="SP_10"
+cellrouter@signatures$SP_11$subpopulation="SP_11"
+cellrouter@signatures$SP_12$subpopulation="SP_12"
+cellrouter@signatures$SP_13$subpopulation="SP_13"
+cellrouter@signatures$SP_14$subpopulation="SP_14"
+cellrouter@signatures$SP_15$subpopulation="SP_15"
+cellrouter@signatures$SP_16$subpopulation="SP_16"
+cellrouter@signatures$SP_17$subpopulation="SP_17"
+data=rbind(cellrouter@signatures$SP_1,cellrouter@signatures$SP_2,cellrouter@signatures$SP_3,cellrouter@signatures$SP_4,cellrouter@signatures$SP_5,cellrouter@signatures$SP_6,cellrouter@signatures$SP_7,cellrouter@signatures$SP_8,cellrouter@signatures$SP_9,cellrouter@signatures$SP_10,cellrouter@signatures$SP_11,cellrouter@signatures$SP_12,cellrouter@signatures$SP_13,cellrouter@signatures$SP_14,cellrouter@signatures$SP_15,cellrouter@signatures$SP_16,cellrouter@signatures$SP_17)
+data$gene_names=rownames(data)
+write.table(data,"results/ydl.dif_genes.txt",sep="\t")
+## GRN score for selected transitions
+tfs <- find_tfs(species = 'Mm')
+save(tfs,file="results/tfs.R")
+dev.off()
