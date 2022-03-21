@@ -16,9 +16,9 @@ setwd("./SCENIC")
 ##准备细胞meta信息
 cellInfo <- data.frame(scRNA@meta.data)
 colnames(cellInfo)[which(colnames(cellInfo)=="orig.ident")] <- "sample"
-colnames(cellInfo)[which(colnames(cellInfo)=="seurat_clusters")] <- "cluster"
-#colnames(cellInfo)[which(colnames(cellInfo)=="celltype")] <- "celltype"
-cellInfo <- cellInfo[,c("sample","cluster")]
+#colnames(cellInfo)[which(colnames(cellInfo)=="seurat_clusters")] <- "cluster"
+colnames(cellInfo)[which(colnames(cellInfo)=="celltype")] <- "celltype"
+cellInfo <- cellInfo[,c("sample","celltype")]
 saveRDS(cellInfo, file="int/cellInfo.Rds")
 ##准备表达矩阵
 #为了节省计算资源，随机抽取1000个细胞的数据子集
